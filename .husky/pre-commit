@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Running ESLint and Prettier..."
+npm run lint --fix && npm run format
