@@ -1,2 +1,2 @@
 echo "🛠 Running tests with coverage..."
-npm run test:cov
+npm run test:coverage
